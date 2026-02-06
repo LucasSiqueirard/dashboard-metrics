@@ -1,0 +1,74 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "name": "Lucas Siqueira",
+            "email": "lucas@email.com",
+            "plan": "pro",
+            "createdAt": "2025-10-12",
+            "active": true,
+            "source": "organic"
+        }
+    ],
+    "subscription": [
+        {
+            "id": 1,
+            "userId": 1,
+            "plan": "pro",
+            "status": "active",
+            "startedAt": "2025-10-12",
+            "expiresAt": "2026-10-12"
+        }
+    ],
+    "metrics": [
+        {
+            "id": "mmr",
+            "userId": 1,
+            "date": "2025-10-20",
+            "activeUsers": 1500,
+            "newSignups": 200,
+            "revenue": 5000
+        },
+        {
+            "id": "activeUsers",
+            "userId": 1,
+            "date": "2025-10-21",
+            "activeUsers": 1600,
+            "newSignups": 250,
+            "revenue": 5500
+        },
+        {
+            "id": "churnRate",
+            "userId": 1,
+            "date": "2025-10-22",
+            "activeUsers": 1700,
+            "newSignups": 300,
+            "revenue": 6000
+        },
+        {
+            "id": "conversionRate",
+            "label": 1,
+            "value": "2025-10-23",
+            "previousValue": 1800,
+            "unit": 350
+        }
+    ],
+    "events": [
+        {
+            "id": 1,
+            "userId": 1,
+            "type": "login",
+            "timestamp": "2025-10-20T10:00:00Z"
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "type": "purchase",
+            "timestamp": "2025-10-20T12:30:00Z",
+            "details": {
+                "amount": 100,
+                "item": "Pro Plan Upgrade"
+            }
+        }
+    ]
+}
